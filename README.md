@@ -1,21 +1,21 @@
-# Langchain RAG Tutorial
+# README inicial
 
-Install dependencies.
+Instalar dependencias.
 
 ```python
 pip install -r requirements.txt
 ```
 
-Create the Chroma DB.
+Crear la Chroma DB.
 
 ```python
 python create_database.py
 ```
 
-Query the Chroma DB.
+Lanzar consultas a Chroma DB.
 
 ```python
-python query_data.py "How does Alice meet the Mad Hatter?"
+python query_data.py "Para cuáles niveles de estudios aplican los Lineamientos de Credenciales Alternativas?"
 ```
 
-You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work.
+Es necesario definir una variable de entorno (ver imagen que envié en WA).
